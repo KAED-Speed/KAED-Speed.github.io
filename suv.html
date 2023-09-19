@@ -2,6 +2,15 @@
 <html>
     <head>
         <style>
+
+            body{
+              background-image: linear-gradient(rgb(0,0,0),rgb(100,0,0));
+            }
+            p{
+              color: white;
+              font-family: sans-serif
+            }
+          
             .divallleft {
               float: left;
               margin: 2.75%;
@@ -40,10 +49,53 @@
             .text {
                 text-align: center;
             }
-            
+
+          .navbar{
+          width: 90%;
+          padding: 30px;
+          margin: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+       .logo{
+         width: 160px;
+         margin-top: 10px;
+         cursor: pointer;
+       }
+       .navbar ul li{
+         list-style: none;
+         display: inline-block;
+         margin: 20px;
+       }
+       .navbar ul li a{
+         text-decoration: none;
+         text-transform: uppercase;
+         color: white;
+         font-weight: 600;
+       }
+       li a:hover{
+         background: white;
+         transition: 0.5s;
+       }
+       .navbar a:hover{
+         color: black;
+       }
+          
         </style>
     </head>
     <body>
+
+       <div class="navbar">
+          <img class="logo" src="logotje.png" >
+            <ul>
+                <li><a href="index.html"> Home</li>
+                <li><a href="suv.html"> suv's</li>
+                <li><a href="?"> Sport</li>
+                <li><a href="?"> Coupe's</li>
+            </ul>
+        </div>
+      
         <div class="divallleft">
          <div class="divimg">
               <img class="img20" src="G800.2.jpg">
@@ -110,12 +162,12 @@
 
       <div class="divallright">
             <div class="divimg">
-                <img class="img20" src="logotje.png">
+                <img class="img20" src="srttje.jpg">
              </div>
              <div class="divtext2">
                <div class="text">
-                <a href="index.html"> Eduardo</a>
-                <p> $free</p>
+                 <p> Jeep SRT 2018</p>
+                <p> $70.000</p>
                </div>
              </div>
            </div> 
