@@ -1,98 +1,23 @@
 <html>
   <head>
-     <style>
-        *{
-          margin: 0;
-          padding: 0;
-          font-family: sans-serif;
-          box-sizing: border-box;
-        }
-        .banner{
-          width: 100%;
-          height: 100vh;
-          background-image: linear-gradient(rgb(0,0,0),rgb(100,0,0));
-          background-position: center;
-          background-size: enter;
-        }
-        .navbar{
-          width: 90%;
-          padding: 30px;
-          margin: auto;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-        }
-       .logo{
-         width: 160px;
-         margin-top: 10px;
-         cursor: pointer;
-       }
-       .navbar ul li{
-         list-style: none;
-         display: inline-block;
-         margin: 20px;
-       }
-       .navbar ul li a{
-         text-decoration: none;
-         text-transform: uppercase;
-         color: white;
-         font-weight: 600;
-       }
-       li a:hover{
-         background: white;
-         transition: 0.5s;
-       }
-       .navbar a:hover{
-         color: black;
-       }
-       .content{
-         width: 100%;
-         position: absolute;
-         color: white;
-         top: 45%;
-         transform: translateY(-50%);
-         text-align: center;
-       }
-       .content h1{
-         margin-top: 80px:
-         font-size: 90px:
-         font-weight: 800:
-       }
-      .banner video{
-        margin: 0%;
-        padding: 0%;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        width: 100%;
-      }
-       @media(min-aspect-ratio:16/9){
-         .banner vifeo{
-           width:100%;
-           height: auto;
-         }
-       }
-
-       
-       
-     </style>
+     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-      <div class="banner"> 
-        <video autoplay loop muted plays-inline>
-          <source src="filempje.mp4" type="video/mp4">
-        </video>
+      <div class="banner">
         <div class="navbar">
           <img class="logo" src="logotje.png" >
             <ul>
-                <li><a href="index.html"> Home</li>
-                <li><a href="suv.html"> suv's</li>
-                <li><a href="sport.html"> Sport</li>
-               <li><a href="coupes.html"> Coupe's</li>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="suv.html"> suv's</a></li>
+                <li><a href="sport.html"> Sport</a></li>
+                <li><a href="coupes.html"> Coupe's</a></li>
             </ul>
         </div>
+          <video autoplay loop muted plays-inline>
+          <source src="filempje.mp4" type="video/mp4">
+        </video>
           <div class="content">
-            <h1> WE BRING SPEED IN YOUR LIFE</h1>
+            <h1> KAED BRINGS YOU SPEED</h1>
           </div>
       </div>
     
