@@ -67,6 +67,7 @@ li a:hover{
 }
 
 .banner video{
+  object-fit: fill;
   margin: 0%;
   padding: 0%;
   position: absolute;
@@ -117,4 +118,12 @@ li a:hover{
 
 .text {
   text-align: center;
+}
+
+.filler{
+  margin-top: 20%;
+}
+
+.productje{
+  
 }
