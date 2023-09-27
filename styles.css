@@ -5,24 +5,23 @@
   box-sizing: border-box;
 }
 
-body{
-  background-image: linear-gradient(rgb(0, 0, 0),rgb(128, 128, 128));
-}
+
 
 .banner{
   width: 100%;
-  height: 100vh;
+  height: 800px;
   background-position: center;
   background-size: enter;
 }
         
 .navbar{
-  width: 90%; 
+  width: 100%; 
   padding: 30px;
   margin: auto;     
   display: flex;     
   align-items: center; 
   justify-content: space-between;
+  background-image: linear-gradient(to right, black , #5c5c5c);
 }
 
 .logo{
@@ -109,7 +108,7 @@ li a:hover{
   padding-top: 2%;
   padding-bottom: 2%;
   margin-top: 2%;
-  background-color: rgb(255, 255, 255);
+  color: black;
 }
 
 .img20 {
@@ -117,13 +116,26 @@ li a:hover{
 }
 
 .text {
-  text-align: center;
-}
-
-.filler{
-  margin-top: 20%;
+  text-align: left;
 }
 
 .productje{
-  
+  margin: 27.5%;
+  margin-left: 10%;
+  float: left;
+  width: 45%
+}
+
+.name{
+  color: #696969;
+  font-size: .8rem;
+  font-weight: 700;
+  line-height: 1rem;
+}
+
+.price{
+  color: #696969;
+  font-size: .6rem;
+  font-weight: 700;
+  line-height: 1rem;
 }
