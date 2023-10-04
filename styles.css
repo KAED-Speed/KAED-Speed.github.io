@@ -181,6 +181,11 @@ li a:hover{
   font-size: 15px;
 }
 
-body{
-  background-color: #333333;
+.myVideo {
+  height: 85vw;
+}
+
+.prod{
+  position: absolute;
+  top: calc(56vw + 200px);
 }
